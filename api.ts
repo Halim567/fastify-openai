@@ -14,6 +14,7 @@ const openai = new OpenAI({
     apiKey: process.env.API_KEY
 });
 
+
 const server = fastify()
     .get('/', (_, reply) => {
         if (message) {

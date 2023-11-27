@@ -1,2 +1,6 @@
 .env
 node_modules
+dockerfile
+.dockerignore
+api.js
+api.ts
